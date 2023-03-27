@@ -1,0 +1,26 @@
+{
+    "name": "comma/repository-pattern",
+    "description": "Repository Pattern for laravel",
+    "authors": [
+        {
+            "name": "Mohammadreza Mahdavi",
+            "email": "mrmahdavi38@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Raahin\\RepositoryPattern\\" : "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Raahin\\RepositoryPattern\\Provider\\RepositoryPatternServiceProvider"
+            ]
+        }
+    }
+}
